@@ -1,0 +1,8 @@
+version: "3"
+services:
+  node:
+    image: "gorpher/service:latest"
+    user: "root"
+    working_dir: /home/root/workdir
+    ports:
+      - "8081:8080"
